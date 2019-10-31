@@ -2779,6 +2779,10 @@
         "category": "Error",
         "code": 2781
     },
+    "'{0}' is a type, not a symbol. To use '{0}' as a key type of a mapped type, use 'K in {0}'": {
+        "category": "Error",
+        "code": 2782
+    },
 
     "Import declaration '{0}' is using private name '{1}'.": {
         "category": "Error",
@@ -4048,7 +4052,7 @@
         "category": "Message",
         "code": 6201
     },
-        "Project references may not form a circular graph. Cycle detected: {0}": {
+    "Project references may not form a circular graph. Cycle detected: {0}": {
         "category": "Error",
         "code": 6202
     },

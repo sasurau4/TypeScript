@@ -2011,7 +2011,7 @@ namespace ts {
                 if (symbol && !(symbol.flags & SymbolFlags.NamespaceModule)) {
                     const message = isES2015OrLaterConstructorName(name)
                         ? Diagnostics._0_only_refers_to_a_type_but_is_being_used_as_a_value_here_Do_you_need_to_change_your_target_library_Try_changing_the_lib_compiler_option_to_es2015_or_later
-                        : Diagnostics._0_only_refers_to_a_type_but_is_being_used_as_a_value_here;
+                        : Diagnostics._0_is_a_type_not_a_symbol_To_use_0_as_a_key_type_of_a_mapped_type_use_K_in_0;
                     error(errorLocation, message, unescapeLeadingUnderscores(name));
                     return true;
                 }
